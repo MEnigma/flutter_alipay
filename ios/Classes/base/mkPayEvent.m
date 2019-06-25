@@ -11,7 +11,7 @@
 +(id)mkPayEventHandleWithMethodCall:(FlutterMethodCall *)methodcall result:(FlutterResult)result{
     id event = [[self.class alloc] init];
     [event initConfig];
-    [event handleMethodCall:methodcall result:result];
+    [event handleMethod:methodcall result:result];
     return event;
 }
 
