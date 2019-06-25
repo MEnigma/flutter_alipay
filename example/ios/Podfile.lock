@@ -1,0 +1,33 @@
+PODS:
+  - AlipaySDK-iOS (15.5.9)
+  - Flutter (1.0.0)
+  - flutter_alipay (0.0.1):
+    - AlipaySDK-iOS
+    - Flutter
+    - MJExtension
+  - MJExtension (3.0.17)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_alipay (from `.symlinks/plugins/flutter_alipay/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlipaySDK-iOS
+    - MJExtension
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_alipay:
+    :path: ".symlinks/plugins/flutter_alipay/ios"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_alipay: 8d3ca79f0994628b1a1144aa850515d07b3d7147
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.5.3
