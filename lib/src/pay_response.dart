@@ -15,7 +15,7 @@ class PayResult {
 
   PayResult.fromJson(String mapString){
     Map data = jsonDecode(mapString);
-    this.succeed = int.parse(data['succeed'] ?? "0") == 1;
+    this.succeed = int.parse(data['succeed'].toString() ?? "0") == 1;
     this.message = (data['message'] ?? "");
     this.debugmsg = (data['debugmsg'] ?? "");
     this.ext = jsonDecode(data['ext'] ?? "");
