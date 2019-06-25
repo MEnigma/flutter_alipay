@@ -1,5 +1,4 @@
 #import "FlutterAlipayPlugin.h"
-#import "define.h"
 #import "mkAlipayHandle.h"
 
 static NSObject<FlutterPluginRegistrar>* _registrar;
@@ -10,7 +9,7 @@ static NSObject<FlutterPluginRegistrar>* _registrar;
 //    _registrar = registrar;
   
     
-    FlutterMethodChannel *alipay_order_channel = [FlutterMethodChannel methodChannelWithName:channel_alipay_order
+    FlutterMethodChannel *alipay_order_channel = [FlutterMethodChannel methodChannelWithName:@"channel_alipay_order#mark"
                                                                              binaryMessenger:registrar.messenger];
     
     [alipay_order_channel setMethodCallHandler:^(FlutterMethodCall * _Nonnull call, FlutterResult  _Nonnull result) {

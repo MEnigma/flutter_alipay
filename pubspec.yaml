@@ -2,7 +2,7 @@ name: flutter_alipay
 description: A new Flutter plugin.
 version: 0.0.1
 author: mark
-homepage: 
+homepage:
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
